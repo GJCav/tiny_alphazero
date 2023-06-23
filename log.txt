@@ -1,0 +1,47 @@
+Checkpoint Directory exists! 
+Epoch[1] 
+Epoch[2] 
+Epoch[3] 
+Epoch[4] 
+Epoch[5] 
+Epoch[6] 
+Epoch[7] 
+Epoch[8] 
+Epoch[9] 
+Epoch[10] 
+Test result: 
+    player1(FastEvalPlayer)-win: 45 45.00%
+    player2(FastEvalPlayer)-win: 45 45.00%
+    draw: 10 10.00%
+Checkpoint Directory exists! 
+Epoch[1] 
+Epoch[2] 
+Epoch[3] 
+Epoch[4] 
+Epoch[5] 
+Epoch[6] 
+Epoch[7] 
+Epoch[8] 
+Epoch[9] 
+Epoch[10] 
+Test result: 
+    player1(FastEvalPlayer)-win: 45 45.00%
+    player2(FastEvalPlayer)-win: 45 45.00%
+    draw: 10 10.00%
+Checkpoint Directory exists! 
+Epoch[1] 
+Epoch[2] 
+Epoch[3] 
+Epoch[4] 
+Epoch[5] 
+Epoch[6] 
+Epoch[7] 
+Epoch[8] 
+Epoch[9] 
+Epoch[10] 
+Test result: 
+    player1(FastEvalPlayer)-win: 45 45.00%
+    player2(FastEvalPlayer)-win: 45 45.00%
+    draw: 10 10.00%
+Checkpoint Directory exists! 
+Epoch[1] 

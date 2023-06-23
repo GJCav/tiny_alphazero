@@ -1,0 +1,4 @@
+{"itr": 1, "time": 1687536185.1387494, "loss": 233.98223876953125, "pit_random": [10, 0, 0], "pit_last": [4, 6, 0], "accept": false}
+{"itr": 2, "time": 1687536263.554306, "loss": 253.96307373046875, "pit_random": null, "pit_last": [5, 3, 2], "accept": false}
+{"itr": 3, "time": 1687536329.4207392, "loss": 236.9373779296875, "pit_random": null, "pit_last": [6, 3, 1], "accept": true}
+{"itr": 4, "time": 1687536399.3208945, "loss": 235.91006469726562, "pit_random": [10, 0, 0], "pit_last": null, "accept": true}
