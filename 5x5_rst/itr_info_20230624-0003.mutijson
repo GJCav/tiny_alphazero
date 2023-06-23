@@ -1,0 +1,17 @@
+{"itr": 1, "time": 1687536185.1387494, "loss": 233.98223876953125, "pit_random": [10, 0, 0], "pit_last": [4, 6, 0], "accept": false}
+{"itr": 2, "time": 1687536263.554306, "loss": 253.96307373046875, "pit_random": null, "pit_last": [5, 3, 2], "accept": false}
+{"itr": 3, "time": 1687536329.4207392, "loss": 236.9373779296875, "pit_random": null, "pit_last": [6, 3, 1], "accept": true}
+{"itr": 4, "time": 1687536399.3208945, "loss": 235.91006469726562, "pit_random": [10, 0, 0], "pit_last": null, "accept": true}
+{"itr": 5, "time": 1687536444.2640135, "loss": 213.55844116210938, "pit_random": null, "pit_last": [5, 4, 1], "accept": false}
+{"itr": 6, "time": 1687536498.6068084, "loss": 216.4983673095703, "pit_random": null, "pit_last": [1, 8, 1], "accept": false}
+{"itr": 7, "time": 1687536550.8364859, "loss": 212.77096557617188, "pit_random": [9, 0, 1], "pit_last": [5, 4, 1], "accept": false}
+{"itr": 8, "time": 1687536613.3721905, "loss": 231.93145751953125, "pit_random": [7, 1, 2], "pit_last": [3, 5, 2], "accept": false}
+{"itr": 9, "time": 1687536687.7236764, "loss": 220.8516845703125, "pit_random": [7, 1, 2], "pit_last": [5, 4, 1], "accept": false}
+{"itr": 10, "time": 1687536749.6795747, "loss": 228.43341064453125, "pit_random": [8, 2, 0], "pit_last": [6, 4, 0], "accept": true}
+{"itr": 11, "time": 1687536828.361114, "loss": 214.4169464111328, "pit_random": [9, 1, 0], "pit_last": [4, 5, 1], "accept": false}
+{"itr": 12, "time": 1687536897.2081692, "loss": 220.52308654785156, "pit_random": [10, 0, 0], "pit_last": null, "accept": true}
+{"itr": 13, "time": 1687536954.890215, "loss": 216.59487915039062, "pit_random": null, "pit_last": [4, 5, 1], "accept": false}
+{"itr": 14, "time": 1687537019.2240841, "loss": 215.5262451171875, "pit_random": null, "pit_last": [6, 3, 1], "accept": true}
+{"itr": 15, "time": 1687537082.5641067, "loss": 207.70574951171875, "pit_random": [8, 0, 2], "pit_last": [5, 4, 1], "accept": false}
+{"itr": 16, "time": 1687537157.1387413, "loss": 201.89974975585938, "pit_random": [9, 0, 1], "pit_last": [3, 4, 3], "accept": false}
+{"itr": 17, "time": 1687537239.0961692, "loss": 213.80772399902344, "pit_random": [9, 0, 1], "pit_last": [3, 5, 2], "accept": false}
