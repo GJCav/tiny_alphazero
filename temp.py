@@ -1,16 +1,18 @@
-from GoNNet import *
-from GoGame import *
+import time
+from functools import lru_cache
 
-g = GoGame(5)
-net = GoNNetWrapper(g)
+class C:
+    def __init__(self) -> None:
+        self.n = 20
 
-b = Board(5)
-b.load_from_numpy(np.array([
-    [ 0,-1, 1, 0, 0],
-    [-1, 0,-1, 1, 0],
-    [ 0,-1, 1, 0, 0],
-    [ 0, 0, 0, 0, 0],
-    [ 0, 0, 0, 0, 1],
-]))
-
-print(net.predict(b.data))
+    @lru_cache(maxsize=3)
+    def val(self, s):
+        time.sleep(s)
+        print(f"hello {s}")
+        return self.n
+    
+c = C()
+c.val(2)
+c.val(2)
+c.val(2)
+c.val(1)

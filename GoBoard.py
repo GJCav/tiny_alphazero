@@ -257,3 +257,4 @@ class Board:
 
         dfs(ii, jj)
         return count, visited
+    

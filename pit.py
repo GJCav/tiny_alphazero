@@ -2,7 +2,7 @@ from Player import *
 from GoGame import GoGame
 from tqdm import trange
 
-N_TEST = 80
+N_TEST = 40
 BOARD_SIZE = 9
 N_PLAY_OUT = 50
 
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     # ** Modify this part to test different players **
     global_game = GoGame(n=BOARD_SIZE)
     random_player = RandomPlayer(global_game, 1)
-    alphazero_player = AlphaZeroPlayer(global_game, "./temp/best.pth", 50, 1.0)
+    alphazero_player = AlphaZeroPlayer(global_game, None, 50, 1.0, chk_abs_path="checkpoint.pth.tar", player=-1)
     
     player1 = alphazero_player
     player2 = random_player

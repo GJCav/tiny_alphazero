@@ -9,6 +9,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+from functools import lru_cache
 
 net_config = dotdict({
     'lr': 0.001,
@@ -154,8 +155,12 @@ class GoNNetWrapper():
             'state_dict': self.nnet.state_dict(),
         }, filepath)
 
-    def load_checkpoint(self, folder='checkpoint', filename='checkpoint.pth.tar'):
-        filepath = os.path.join(folder, filename)
+
+    def load_checkpoint(self, folder='checkpoint', filename='checkpoint.pth.tar', path=None):
+        if path is None:
+            filepath = os.path.join(folder, filename)
+        else:
+            filepath = path
         if not os.path.exists(filepath):
             raise Exception("No model in path {}".format(filepath))
         map_location = None if net_config.cuda else 'cpu'

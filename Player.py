@@ -19,17 +19,22 @@ class RandomPlayer:
 
 
 class AlphaZeroPlayer:
-    def __init__(self, game, checkpoint_path, num_sims, C) -> None:
+    def __init__(self, game, checkpoint_path, num_sims, C, chk_abs_path = None, player=1) -> None:
         self.nnet = GoNNetWrapper(game)
-        self.checkpoint_path = checkpoint_path
-        self.nnet.load_checkpoint(checkpoint_path)
+        if chk_abs_path is None:
+            self.checkpoint_path = checkpoint_path
+            self.nnet.load_checkpoint(self.checkpoint_path)
+        else:
+            self.checkpoint_path = chk_abs_path
+            self.nnet.load_checkpoint(path=chk_abs_path)
         self.mcts =  MCTS(game, self.nnet, num_sims, C)
+        self.player = player
     
     def __str__(self):
         return f"AlphaZero Player({self.checkpoint_path})"
 
     def play(self, board):
-        return np.argmax(self.mcts.get_action_prob(board, temp=0))
+        return np.argmax(self.mcts.get_action_prob(board, self.player))
 
 class FastEvalPlayer:
     def __init__(self, mcts):

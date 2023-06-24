@@ -128,8 +128,8 @@ class Trainer():
 
             # first pit against random player
             if last_rate is not None and last_rate * __against_rdm >=1:
-                log.info(f"last_rate * {__against_rdm} >= 1, skip and decrease last_rate")
-                self.last_rate = last_rate / __against_rdm
+                log.info(f"last_rate * {__against_rdm} >= 1, skip")
+                # self.last_rate = last_rate / __against_rdm
             else:
                 log.info('Pitting against random player...')
                 next_player = FastEvalPlayer(next_mcts)
